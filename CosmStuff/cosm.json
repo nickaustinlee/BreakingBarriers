@@ -1,0 +1,44 @@
+{
+ "title":"Nick's Fake Data",
+  "website":"http://www.example.com/",
+  "version":"1.0.0",
+  "tags":[
+      "Testing",
+      "FakeData"
+  ],
+  "location":{
+    "disposition":"fixed",
+    "ele":"2000",
+    "name":"My House",
+    "lat":37.853734,
+    "exposure":"indoor",
+    "lon":-122.256274,
+    "domain":"physical"
+  },
+
+  "datastreams":[
+      {"id":"FakeTemperature", "current_value":"25",
+		"unit": {
+		"type":"basicSI",
+		"label":"Celsius",
+		"symbol":"C"
+			} 
+				},
+
+      {"id":"FakeTDS", "current_value":"500", 
+		"unit": {
+		"type":"basicSI",
+		"label":"milligrams per liter",
+		"symbol":"mg/L"
+		}
+				},
+
+      {"id":"FakeVolumeRate", "current_value":"5", 
+		"unit": {
+		"type":"basicSI",
+		"label":"Liters Per Minute",
+		"symbol":"LPM"
+				}
+		}
+  ]
+}
