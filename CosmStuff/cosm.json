@@ -39,6 +39,15 @@
 		"label":"Liters Per Minute",
 		"symbol":"LPM"
 				}
-		}
+		}, 
+		
+		{"id":"HappinessLevel", "current_value":"8", 
+			"unit": {
+			"max_value":"10",
+			"min_value":"0",
+			"label":"Happiness Rating",
+			"symbol":"Smiles"
+					}
+			}
   ]
 }
